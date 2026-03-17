@@ -1,0 +1,24 @@
+# RTSP는 다음과 같이 설정합니다.
+# <ID> - IP Camera 계정
+# <PW> - IP Camera 암호
+# <IP> - IP Camera IP
+# rtsp://<ID>:<PW>@<IP>:554/trackID=1
+
+- feeder_type: CAMERA
+  src_path:
+    - 0
+- feeder_type: CAMERA
+  src_path:
+    - 2
+- feeder_type: CAMERA
+  src_path:
+    - 4
+- feeder_type: CAMERA
+  src_path:
+    - 6
+- feeder_type: CAMERA
+  src_path:
+    - 8
+- feeder_type: CAMERA
+  src_path:
+    - 10

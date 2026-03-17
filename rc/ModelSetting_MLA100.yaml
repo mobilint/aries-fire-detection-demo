@@ -1,0 +1,4 @@
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  dev_no: 0
+  num_core: 8

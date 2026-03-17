@@ -1,0 +1,24 @@
+- model_type: STYLENET
+  mxq_path: ../mxq/style_candy.mxq
+  dev_no: 0
+  core_id:
+    - cluster: Cluster0
+      core: Core0
+    - cluster: Cluster0
+      core: Core1
+- model_type: STYLENET
+  mxq_path: ../mxq/style_mosaic.mxq
+  dev_no: 0
+  core_id:
+    - cluster: Cluster0
+      core: Core2
+    - cluster: Cluster0
+      core: Core3
+- model_type: STYLENET
+  mxq_path: ../mxq/style_picaso.mxq
+  dev_no: 0
+  core_id:
+    - cluster: Cluster1
+      core: Core0
+    - cluster: Cluster1
+      core: Core1

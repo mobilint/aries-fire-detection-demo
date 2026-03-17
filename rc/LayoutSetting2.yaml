@@ -1,0 +1,8 @@
+image_layout:
+  - path: ../rc/layout/top_bnr.png
+    roi: [0, 0, 1296, 212]
+  - path: ../rc/layout/right_bnr.png
+    roi: [1300, 0, 620, 1080]
+feeder_layout:
+worker_layout:
+  - {feeder_index: 0, model_index: 0, roi: [   0, 216, 1296, 864]}

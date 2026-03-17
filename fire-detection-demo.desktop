@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Fire Detection
+Icon=fire-detection-demo.png
+Type=Application
+Exec=/usr/bin/env bash -lc 'cd "$HOME/aries-fire-detection-demo" && ./run.sh'
+Terminal=true

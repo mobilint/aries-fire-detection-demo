@@ -1,0 +1,27 @@
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  subconfig:
+    input: uint8
+  dev_no: 0
+  num_core: 8
+
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  subconfig:
+    input: uint8
+  dev_no: 1
+  num_core: 8
+
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  subconfig:
+    input: uint8
+  dev_no: 2
+  num_core: 8
+
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  subconfig:
+    input: uint8
+  dev_no: 3
+  num_core: 8
