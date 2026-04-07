@@ -1,0 +1,116 @@
+image_layout:
+  - path: ../rc/layout/layout_MLA400.png
+    roi: [0, 0, 1920, 1080]
+
+worker_layout:
+  # Row 1 (y: 137, h: 115) - Model 0
+  - {feeder_index: 0, model_index: 0, roi: [0, 137, 156, 115]}
+  - {feeder_index: 1, model_index: 0, roi: [160, 137, 157, 115]}
+  - {feeder_index: 2, model_index: 0, roi: [321, 137, 156, 115]}
+  - {feeder_index: 3, model_index: 0, roi: [481, 137, 156, 115]}
+  - {feeder_index: 4, model_index: 0, roi: [641, 137, 157, 115]}
+  - {feeder_index: 5, model_index: 0, roi: [802, 137, 156, 115]}
+  - {feeder_index: 6, model_index: 0, roi: [962, 137, 156, 115]}
+  - {feeder_index: 7, model_index: 0, roi: [1122, 137, 157, 115]}
+  - {feeder_index: 8, model_index: 0, roi: [1283, 137, 156, 115]}
+  - {feeder_index: 9, model_index: 0, roi: [1443, 137, 156, 115]}
+  - {feeder_index: 10, model_index: 0, roi: [1603, 137, 157, 115]}
+  - {feeder_index: 11, model_index: 0, roi: [1764, 137, 156, 115]}
+
+  # Row 2 (y: 256, h: 114) - Model 0
+  - {feeder_index: 12, model_index: 0, roi: [0, 256, 156, 114]}
+  - {feeder_index: 13, model_index: 0, roi: [160, 256, 157, 114]}
+  - {feeder_index: 14, model_index: 0, roi: [321, 256, 156, 114]}
+  - {feeder_index: 15, model_index: 0, roi: [481, 256, 156, 114]}
+  - {feeder_index: 16, model_index: 0, roi: [641, 256, 157, 114]}
+  - {feeder_index: 17, model_index: 0, roi: [802, 256, 156, 114]}
+  - {feeder_index: 18, model_index: 0, roi: [962, 256, 156, 114]}
+  - {feeder_index: 19, model_index: 0, roi: [1122, 256, 157, 114]}
+  - {feeder_index: 20, model_index: 0, roi: [1283, 256, 156, 114]}
+  - {feeder_index: 21, model_index: 0, roi: [1443, 256, 156, 114]}
+  - {feeder_index: 22, model_index: 0, roi: [1603, 256, 157, 114]}
+  - {feeder_index: 23, model_index: 0, roi: [1764, 256, 156, 114]}
+
+  # Row 3 (y: 374, h: 114) - Model 1
+  - {feeder_index: 24, model_index: 1, roi: [0, 374, 156, 114]}
+  - {feeder_index: 25, model_index: 1, roi: [160, 374, 157, 114]}
+  - {feeder_index: 26, model_index: 1, roi: [321, 374, 156, 114]}
+  - {feeder_index: 27, model_index: 1, roi: [481, 374, 156, 114]}
+  - {feeder_index: 28, model_index: 1, roi: [641, 374, 157, 114]}
+  - {feeder_index: 29, model_index: 1, roi: [802, 374, 156, 114]}
+  - {feeder_index: 30, model_index: 1, roi: [962, 374, 156, 114]}
+  - {feeder_index: 31, model_index: 1, roi: [1122, 374, 157, 114]}
+  - {feeder_index: 32, model_index: 1, roi: [1283, 374, 156, 114]}
+  - {feeder_index: 33, model_index: 1, roi: [1443, 374, 156, 114]}
+  - {feeder_index: 34, model_index: 1, roi: [1603, 374, 157, 114]}
+  - {feeder_index: 35, model_index: 1, roi: [1764, 374, 156, 114]}
+
+  # Row 4 (y: 492, h: 115) - Model 1
+  - {feeder_index: 36, model_index: 1, roi: [0, 492, 156, 115]}
+  - {feeder_index: 37, model_index: 1, roi: [160, 492, 157, 115]}
+  - {feeder_index: 38, model_index: 1, roi: [321, 492, 156, 115]}
+  - {feeder_index: 39, model_index: 1, roi: [481, 492, 156, 115]}
+  - {feeder_index: 40, model_index: 1, roi: [641, 492, 157, 115]}
+  - {feeder_index: 41, model_index: 1, roi: [802, 492, 156, 115]}
+  - {feeder_index: 42, model_index: 1, roi: [962, 492, 156, 115]}
+  - {feeder_index: 43, model_index: 1, roi: [1122, 492, 157, 115]}
+  - {feeder_index: 44, model_index: 1, roi: [1283, 492, 156, 115]}
+  - {feeder_index: 45, model_index: 1, roi: [1443, 492, 156, 115]}
+  - {feeder_index: 46, model_index: 1, roi: [1603, 492, 157, 115]}
+  - {feeder_index: 47, model_index: 1, roi: [1764, 492, 156, 115]}
+
+  # Row 5 (y: 611, h: 115) - Model 2
+  - {feeder_index: 48, model_index: 2, roi: [0, 611, 156, 115]}
+  - {feeder_index: 49, model_index: 2, roi: [160, 611, 157, 115]}
+  - {feeder_index: 50, model_index: 2, roi: [321, 611, 156, 115]}
+  - {feeder_index: 51, model_index: 2, roi: [481, 611, 156, 115]}
+  - {feeder_index: 52, model_index: 2, roi: [641, 611, 157, 115]}
+  - {feeder_index: 53, model_index: 2, roi: [802, 611, 156, 115]}
+  - {feeder_index: 54, model_index: 2, roi: [962, 611, 156, 115]}
+  - {feeder_index: 55, model_index: 2, roi: [1122, 611, 157, 115]}
+  - {feeder_index: 56, model_index: 2, roi: [1283, 611, 156, 115]}
+  - {feeder_index: 57, model_index: 2, roi: [1443, 611, 156, 115]}
+  - {feeder_index: 58, model_index: 2, roi: [1603, 611, 157, 115]}
+  - {feeder_index: 59, model_index: 2, roi: [1764, 611, 156, 115]}
+
+  # Row 6 (y: 730, h: 114) - Model 2
+  - {feeder_index: 60, model_index: 2, roi: [0, 730, 156, 114]}
+  - {feeder_index: 61, model_index: 2, roi: [160, 730, 157, 114]}
+  - {feeder_index: 62, model_index: 2, roi: [321, 730, 156, 114]}
+  - {feeder_index: 63, model_index: 2, roi: [481, 730, 156, 114]}
+  - {feeder_index: 64, model_index: 2, roi: [641, 730, 157, 114]}
+  - {feeder_index: 65, model_index: 2, roi: [802, 730, 156, 114]}
+  - {feeder_index: 66, model_index: 2, roi: [962, 730, 156, 114]}
+  - {feeder_index: 67, model_index: 2, roi: [1122, 730, 157, 114]}
+  - {feeder_index: 68, model_index: 2, roi: [1283, 730, 156, 114]}
+  - {feeder_index: 69, model_index: 2, roi: [1443, 730, 156, 114]}
+  - {feeder_index: 70, model_index: 2, roi: [1603, 730, 157, 114]}
+  - {feeder_index: 71, model_index: 2, roi: [1764, 730, 156, 114]}
+
+  # Row 7 (y: 848, h: 114) - Model 3
+  - {feeder_index: 72, model_index: 3, roi: [0, 848, 156, 114]}
+  - {feeder_index: 73, model_index: 3, roi: [160, 848, 157, 114]}
+  - {feeder_index: 74, model_index: 3, roi: [321, 848, 156, 114]}
+  - {feeder_index: 75, model_index: 3, roi: [481, 848, 156, 114]}
+  - {feeder_index: 76, model_index: 3, roi: [641, 848, 157, 114]}
+  - {feeder_index: 77, model_index: 3, roi: [802, 848, 156, 114]}
+  - {feeder_index: 78, model_index: 3, roi: [962, 848, 156, 114]}
+  - {feeder_index: 79, model_index: 3, roi: [1122, 848, 157, 114]}
+  - {feeder_index: 80, model_index: 3, roi: [1283, 848, 156, 114]}
+  - {feeder_index: 81, model_index: 3, roi: [1443, 848, 156, 114]}
+  - {feeder_index: 82, model_index: 3, roi: [1603, 848, 157, 114]}
+  - {feeder_index: 83, model_index: 3, roi: [1764, 848, 156, 114]}
+
+  # Row 8 (y: 966, h: 114) - Model 3
+  - {feeder_index: 84, model_index: 3, roi: [0, 966, 156, 114]}
+  - {feeder_index: 85, model_index: 3, roi: [160, 966, 157, 114]}
+  - {feeder_index: 86, model_index: 3, roi: [321, 966, 156, 114]}
+  - {feeder_index: 87, model_index: 3, roi: [481, 966, 156, 114]}
+  - {feeder_index: 88, model_index: 3, roi: [641, 966, 157, 114]}
+  - {feeder_index: 89, model_index: 3, roi: [802, 966, 156, 114]}
+  - {feeder_index: 90, model_index: 3, roi: [962, 966, 156, 114]}
+  - {feeder_index: 91, model_index: 3, roi: [1122, 966, 157, 114]}
+  - {feeder_index: 92, model_index: 3, roi: [1283, 966, 156, 114]}
+  - {feeder_index: 93, model_index: 3, roi: [1443, 966, 156, 114]}
+  - {feeder_index: 94, model_index: 3, roi: [1603, 966, 157, 114]}
+  - {feeder_index: 95, model_index: 3, roi: [1764, 966, 156, 114]}

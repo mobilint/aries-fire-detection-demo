@@ -1,0 +1,6 @@
+- model_type: OBJECT
+  mxq_path: ../mxq/yolo11s-fire-final.mxq
+  subconfig:
+    input: float32
+  dev_no: 0
+  num_core: 8

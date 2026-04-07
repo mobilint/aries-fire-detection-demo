@@ -1,0 +1,45 @@
+image_layout:
+  - path: ../rc/layout/layout_MLA100.png
+    roi: [0, 0, 1920, 1080]
+
+worker_layout:
+  # 6x5 Grid (MLA100) - total 30
+  # Row 1
+  - {feeder_index: 0, model_index: 0, roi: [0, 137, 320, 184]}
+  - {feeder_index: 1, model_index: 0, roi: [320, 137, 320, 184]}
+  - {feeder_index: 2, model_index: 0, roi: [640, 137, 320, 184]}
+  - {feeder_index: 3, model_index: 0, roi: [960, 137, 320, 184]}
+  - {feeder_index: 4, model_index: 0, roi: [1280, 137, 320, 184]}
+  - {feeder_index: 5, model_index: 0, roi: [1600, 137, 320, 184]}
+
+  # Row 2
+  - {feeder_index: 6, model_index: 0, roi: [0, 321, 320, 184]}
+  - {feeder_index: 7, model_index: 0, roi: [320, 321, 320, 184]}
+  - {feeder_index: 8, model_index: 0, roi: [640, 321, 320, 184]}
+  - {feeder_index: 9, model_index: 0, roi: [960, 321, 320, 184]}
+  - {feeder_index: 10, model_index: 0, roi: [1280, 321, 320, 184]}
+  - {feeder_index: 11, model_index: 0, roi: [1600, 321, 320, 184]}
+
+  # Row 3
+  - {feeder_index: 12, model_index: 0, roi: [0, 505, 320, 184]}
+  - {feeder_index: 13, model_index: 0, roi: [320, 505, 320, 184]}
+  - {feeder_index: 14, model_index: 0, roi: [640, 505, 320, 184]}
+  - {feeder_index: 15, model_index: 0, roi: [960, 505, 320, 184]}
+  - {feeder_index: 16, model_index: 0, roi: [1280, 505, 320, 184]}
+  - {feeder_index: 17, model_index: 0, roi: [1600, 505, 320, 184]}
+
+  # Row 4
+  - {feeder_index: 18, model_index: 0, roi: [0, 689, 320, 184]}
+  - {feeder_index: 19, model_index: 0, roi: [320, 689, 320, 184]}
+  - {feeder_index: 20, model_index: 0, roi: [640, 689, 320, 184]}
+  - {feeder_index: 21, model_index: 0, roi: [960, 689, 320, 184]}
+  - {feeder_index: 22, model_index: 0, roi: [1280, 689, 320, 184]}
+  - {feeder_index: 23, model_index: 0, roi: [1600, 689, 320, 184]}
+
+  # Row 5
+  - {feeder_index: 24, model_index: 0, roi: [0, 873, 320, 207]}
+  - {feeder_index: 25, model_index: 0, roi: [320, 873, 320, 207]}
+  - {feeder_index: 26, model_index: 0, roi: [640, 873, 320, 207]}
+  - {feeder_index: 27, model_index: 0, roi: [960, 873, 320, 207]}
+  - {feeder_index: 28, model_index: 0, roi: [1280, 873, 320, 207]}
+  - {feeder_index: 29, model_index: 0, roi: [1600, 873, 320, 207]}

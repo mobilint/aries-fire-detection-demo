@@ -1,0 +1,21 @@
+image_layout:
+  - path: ../rc/layout/top_bnr.png
+    roi: [0, 0, 1296, 212]
+  - path: ../rc/layout/right_bnr.png
+    roi: [1300, 0, 620, 1080]
+  - path: ../rc/layout/reference_01.png
+    roi: [   0, 216, 429, 285]
+  - path: ../rc/layout/reference_02.png
+    roi: [ 433, 216, 429, 285]
+  - path: ../rc/layout/reference_03.png
+    roi: [ 866, 216, 430, 285]
+feeder_layout:
+worker_layout:
+  - {feeder_index: 0, model_index: 0, roi: [   0, 505, 429, 285]}
+  - {feeder_index: 1, model_index: 0, roi: [   0, 794, 429, 286]}
+
+  - {feeder_index: 0, model_index: 1, roi: [ 433, 505, 429, 285]}
+  - {feeder_index: 1, model_index: 1, roi: [ 433, 794, 429, 286]}
+
+  - {feeder_index: 0, model_index: 2, roi: [ 866, 505, 430, 285]}
+  - {feeder_index: 1, model_index: 2, roi: [ 866, 794, 430, 286]}
