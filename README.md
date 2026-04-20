@@ -1,3 +1,11 @@
+# Notice
+
+This repository is no longer maintained.
+Ongoing development has moved to `aries-cv-demo`.
+This repository is kept for reference only.
+
+
+---
 # ARIES Fire Detection Demo
 
 This project is a multi-channel fire detection demo for ARIES systems. It displays multiple video feeders in a tiled layout and runs object detection with Mobilint QB Runtime on MLA100 or MLA400 devices.
